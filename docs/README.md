@@ -21,6 +21,6 @@ The pictures in the articles can not be used through external links. Please shar
 
 The maximum size of the picture to upload is 20M. PNG and JPG are better. Be sure that your traffic and space are enough if you want to add a lot of pictures in your article.
 
-Have any other questions, please contact our official customer service.影魔
+Have any other questions, please contact our official customer service.影魔 萨菲罗斯
 hahha
 ### 哈哈哈哈
