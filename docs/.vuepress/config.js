@@ -26,7 +26,7 @@ module.exports = {
       },
     ],
     // 为以下路由添加侧边栏
-    sidebar: ["/", "/git", "/vue"],
+    // sidebar: ["/", "/git", "/vue"],
   },
   //   description: "Just playing around",
 };
