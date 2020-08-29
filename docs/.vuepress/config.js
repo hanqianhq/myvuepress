@@ -1,4 +1,5 @@
 module.exports = {
+  base:"/myvuepress/",
   title: "Hello VuePress",
   head: [
     // 注入到当前页面的HTML <head> 中的标签
