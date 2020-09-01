@@ -1,5 +1,5 @@
 module.exports = {
-  base:"/myvuepress/",
+  base: "/myvuepress/",
   title: "Hello VuePress",
   head: [
     // 注入到当前页面的HTML <head> 中的标签
@@ -8,9 +8,11 @@ module.exports = {
   themeConfig: {
     // 添加导航栏
     nav: [
-      { text: "vue", link: "/" },
-      { text: "css", link: "/blog/" },
-      { text: "js", link: "/zhihu/" },
+      { text: "html", link: "/" },
+      { text: "css", link: "/css/css" },
+      { text: "javascript", link: "/javascript/javascript" },
+      { text: "vue", link: "/vue/vue" },
+      { text: "浏览器", link: "/browser/browser" },
       {
         text: "github",
         // 这里是下拉列表展现形式。
@@ -27,7 +29,17 @@ module.exports = {
       },
     ],
     // 为以下路由添加侧边栏
-    // sidebar: ["/", "/git", "/vue"],
+    sidebar: {
+        '/vue/':['vue'],
+        '/browser/':['browser'],
+        '/question/':['question'],
+        '/css/':['css'],
+        '/javascript/':['javascript'],
+        '/':['/']
+        // auto
+    },
+    // sidebar:'auto',
+    sidebarDepth:2
   },
   //   description: "Just playing around",
 };
